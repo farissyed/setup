@@ -1,0 +1,72 @@
+=== Homebrew Packages ===
+boost
+ca-certificates
+double-conversion
+edencommon
+fb303
+fbthrift
+fd
+fizz
+fmt
+folly
+fzf
+gettext
+gflags
+git-delta
+glog
+icu4c
+lazygit
+libevent
+libgit2
+libsodium
+libssh2
+libunistring
+libuv
+lpeg
+luajit
+luv
+lz4
+mpdecimal
+mvfst
+ncurses
+neovim
+oniguruma
+openssl@3
+pcre2
+python@3.12
+readline
+ripgrep
+snappy
+sqlite
+tmux
+tree-sitter@0.25
+unibilium
+utf8proc
+wangle
+watchman
+xz
+zstd
+claude-code
+ghostty
+
+=== Global npm Packages ===
+/usr/local/lib
+├── corepack@0.28.1
+├── expo-cli@6.3.10
+├── npm@10.7.0
+└── react-native-cli@2.0.1
+
+
+=== Neovim Version ===
+NVIM v0.11.6
+Build type: Release
+LuaJIT 2.1.1771261233
+Run "nvim -V1 -v" for more info
+
+=== tmux Version ===
+tmux 3.6a
+
+=== Node.js Version ===
+v20.15.1
+
+=== Generated on Fri Feb 20 10:10:57 EST 2026 ===
