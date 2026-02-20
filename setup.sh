@@ -40,8 +40,8 @@ echo "[2/11] Oh My Zsh"
 if [ -d "$HOME/.oh-my-zsh" ]; then
     echo "  Already installed."
 else
-    echo "  Installing Oh My Zsh (keeping existing .zshrc)..."
-    KEEP_ZSHRC=yes sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --keep-zshrc
+    echo "  Installing Oh My Zsh (existing .zshrc saved as .zshrc.pre-oh-my-zsh)..."
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 fi
 echo ""
 
